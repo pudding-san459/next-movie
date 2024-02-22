@@ -14,6 +14,9 @@ module.exports = {
       },
       height: {
         '770': '48.125rem',
+      },
+      width: {
+        '658': '41.125rem',
       }
     },
     fontSize: {
