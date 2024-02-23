@@ -1,3 +1,5 @@
+// import Table from 'next/table';
+
 // const Footer = () => {
 //     return (
 //         <div>
