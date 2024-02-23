@@ -11,17 +11,28 @@ module.exports = {
       'header-left': '#333333',
       'header-right': '#020202',
       'secondary-gold': '#FED530',
+      'gray': '#1e1e1e',
       },
       height: {
-        '770': '48.125rem',
+        '714': '714px',
       },
       width: {
         '658': '41.125rem',
-      }
+        '600': '37.5rem',
+        '502': '502px',
+      },
+      margin: {
+        '148': '148px',
+        '153': '153px',
+      },
     },
     fontSize: {
       3248: ['32px', '48px'],
       1632: ['16px', '32px'],
+      7296: ['72px', '96px'],
+    },
+    fontFamily: {
+      'dm': ['"DM Sans"', 'sans-serif'],
     },
   },
   plugins: [],

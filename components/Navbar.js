@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
         <div className="mx-auto">
             <nav className="border-gray-200 px-2 mb-10">
-                <div className="container mx-auto flex flex-wrap items-center justify-start">
-                    <span className="self-center text-white text-3248 font-semibold whitespace-nowrap mr-10">PcariMovie</span>
-                    <div className="flex ml-24 md:order-2">
+                <div className="container mx-auto flex flex-wrap items-center justify-center">
+                    <span className="self-center text-white text-3248 font-semibold whitespace-nowrap mr-14">PcariMovie</span>
+                    <div className="flex ml-36 mr-8 md:order-2">
                         <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" ><path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd"></path></svg>
                     </div>
                     <div className="flex ml-3 md:order-3">
