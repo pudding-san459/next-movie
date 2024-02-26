@@ -20,7 +20,7 @@ export default function Home() {
         <p>qwertyuivcfcg</p>
       </div>
       
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
