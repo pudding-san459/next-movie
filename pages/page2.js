@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-gray">
-        <p>qwertyuivcfcg</p>
+        <p className="text-5xl/[64px] font-medium text-white">New Releases</p>
       </div>
       
       <Footer />

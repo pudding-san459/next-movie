@@ -12,7 +12,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex ml-3 md:order-3">
                         <Image src={circle} width={50} height={50} className="" />
-                        <span className="ml-3 self-center text-white text-base font-semibold">John Glitch</span>
+                        <span className="ml-3 self-center text-white text-base font-semibold">John Glich</span>
                     </div>
                     <div className="hidden md:flex justify-space items-center w-658 md:w-auto md:order-1">
                         <ul className="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
