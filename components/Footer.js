@@ -1,5 +1,8 @@
 import Image from "next/image";
 import arrow from "../public/right-arrow.png";
+import location from "../public/location.png";
+import email from "../public/email.png";
+import telephone from "../public/telephone.png";
 
 const Footer = () => {
     return (
@@ -27,11 +30,27 @@ const Footer = () => {
                         <th className="w-65 text-white">Sitemap</th>
                     </tr>
                     <tr>
+                        <td></td>
+                        <td className="h-6"></td>
+                        <td></td>
+                        <td className="h-6"></td>
+                        <td></td>
+                        <td className="h-6"></td>
+                    </tr>
+                    <tr>
                         <td className="w-16 text-nav-link">Movies</td>
                         <td className="w-160"></td>
                         <td className="w-100 text-nav-link">Nice Studio</td>
                         <td className="w-160"></td>
                         <td className="w-65 text-nav-link">About</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td className="h-6"></td>
+                        <td></td>
+                        <td className="h-6"></td>
+                        <td></td>
+                        <td className="h-6"></td>
                     </tr>
                     <tr>
                         <td className="w-16 text-nav-link">TV Show</td>
@@ -41,6 +60,14 @@ const Footer = () => {
                         <td className="w-65 text-nav-link">Careers</td>                        
                     </tr>
                     <tr>
+                        <td></td>
+                        <td className="h-6"></td>
+                        <td></td>
+                        <td className="h-6"></td>
+                        <td></td>
+                        <td className="h-6"></td>
+                    </tr>
+                    <tr>
                         <td className="w-16 text-nav-link">Videos</td>
                         <td className="w-160"></td>
                         <td className="w-100 text-nav-link">Nice TV</td>
@@ -48,6 +75,14 @@ const Footer = () => {
                         <td className="w-65 text-nav-link">Press</td>                        
                     </tr>
                 </table>
+                <div className="flex justify-start text-white text-sm mt-99 ml-61">
+                    <Image src={location} width={24} height={24} />
+                    <p className="ml-2 mr-6">8819 Ohio St. South Gate, California 90280</p>
+                    <Image src={email} width={24} height={24} />
+                    <p className="ml-2 mr-6">ourstudio@hello.com</p>
+                    <Image src={telephone} width={24} height={24} />
+                    <p className="ml-2">+271 386-647-3637</p>
+                </div>
             </div>
         </div>
     );
