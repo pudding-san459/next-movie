@@ -17,14 +17,14 @@ const Navbar = () => {
                     <div className="hidden md:flex justify-space items-center w-658 md:w-auto md:order-1">
                         <ul className="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
                             <li>
-                                <a href="#" className="text-white text-base block pl-3 pr-4 py-2 md:text-white md:p-0 rounded">Home</a>
+                                <a href="/" className="text-white text-base block pl-3 pr-4 py-2 md:text-white md:p-0 rounded">Home</a>
                                 <hr className="bg-secondary-gold h-1 w-10 border-0" />
                             </li>
                             <li>
-                                <a href="#" className="text-nav-link text-1632 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-white md:p-0">Movies</a>
+                                <a href="page2" className="text-nav-link text-1632 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-white md:p-0">Movies</a>
                             </li>
                             <li>
-                                <a href="#" className="text-nav-link text-1632 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-white md:p-0">TV Show</a>
+                                <a href="page3" className="text-nav-link text-1632 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-white md:p-0">TV Show</a>
                             </li>
                             <li>
                                 <a href="#" className="text-nav-link text-1632 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-white md:p-0">Video</a>
